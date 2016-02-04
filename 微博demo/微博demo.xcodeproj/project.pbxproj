@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D4029FA614DA1752C9E0458 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19382096F75D4581B8683D98 /* libPods.a */; };
+		1840D61B1C61F4BB00F5EA52 /* weibos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1840D61A1C61F4BB00F5EA52 /* weibos.plist */; };
+		1840D61E1C61F83000F5EA52 /* ZYWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840D61D1C61F83000F5EA52 /* ZYWeibo.m */; };
+		1840D6211C61FB1D00F5EA52 /* ZYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840D6201C61FB1D00F5EA52 /* ZYTableViewCell.m */; };
+		1840D6241C62ECF900F5EA52 /* ZYWeiboFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840D6231C62ECF900F5EA52 /* ZYWeiboFrame.m */; };
+		188A80541C61F04E00D04765 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A80531C61F04E00D04765 /* main.m */; };
+		188A80571C61F04E00D04765 /* ZYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A80561C61F04E00D04765 /* ZYAppDelegate.m */; };
+		188A805A1C61F04E00D04765 /* ZYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A80591C61F04E00D04765 /* ZYViewController.m */; };
+		188A805D1C61F04E00D04765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188A805B1C61F04E00D04765 /* Main.storyboard */; };
+		188A805F1C61F04E00D04765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188A805E1C61F04E00D04765 /* Assets.xcassets */; };
+		188A80621C61F04E00D04765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188A80601C61F04E00D04765 /* LaunchScreen.storyboard */; };
+		188A806D1C61F04E00D04765 /* __demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A806C1C61F04E00D04765 /* __demoTests.m */; };
+		188A80781C61F04E00D04765 /* __demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A80771C61F04E00D04765 /* __demoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188A80691C61F04E00D04765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188A80471C61F04E00D04765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188A804E1C61F04E00D04765;
+			remoteInfo = "微博demo";
+		};
+		188A80741C61F04E00D04765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188A80471C61F04E00D04765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188A804E1C61F04E00D04765;
+			remoteInfo = "微博demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1840D61A1C61F4BB00F5EA52 /* weibos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = weibos.plist; sourceTree = "<group>"; };
+		1840D61C1C61F83000F5EA52 /* ZYWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWeibo.h; sourceTree = "<group>"; };
+		1840D61D1C61F83000F5EA52 /* ZYWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWeibo.m; sourceTree = "<group>"; };
+		1840D61F1C61FB1D00F5EA52 /* ZYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTableViewCell.h; sourceTree = "<group>"; };
+		1840D6201C61FB1D00F5EA52 /* ZYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTableViewCell.m; sourceTree = "<group>"; };
+		1840D6221C62ECF900F5EA52 /* ZYWeiboFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWeiboFrame.h; sourceTree = "<group>"; };
+		1840D6231C62ECF900F5EA52 /* ZYWeiboFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWeiboFrame.m; sourceTree = "<group>"; };
+		188A804F1C61F04E00D04765 /* 微博demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188A80531C61F04E00D04765 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188A80551C61F04E00D04765 /* ZYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYAppDelegate.h; sourceTree = "<group>"; };
+		188A80561C61F04E00D04765 /* ZYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYAppDelegate.m; sourceTree = "<group>"; };
+		188A80581C61F04E00D04765 /* ZYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYViewController.h; sourceTree = "<group>"; };
+		188A80591C61F04E00D04765 /* ZYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYViewController.m; sourceTree = "<group>"; };
+		188A805C1C61F04E00D04765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188A805E1C61F04E00D04765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188A80611C61F04E00D04765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188A80631C61F04E00D04765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188A80681C61F04E00D04765 /* 微博demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微博demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188A806C1C61F04E00D04765 /* __demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __demoTests.m; sourceTree = "<group>"; };
+		188A806E1C61F04E00D04765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188A80731C61F04E00D04765 /* 微博demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微博demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188A80771C61F04E00D04765 /* __demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __demoUITests.m; sourceTree = "<group>"; };
+		188A80791C61F04E00D04765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19382096F75D4581B8683D98 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		810D672DEE46B34FD4D516CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D58758EFAF30BFAA93331F9A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188A804C1C61F04E00D04765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4029FA614DA1752C9E0458 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188A80651C61F04E00D04765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188A80701C61F04E00D04765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183B4E9EEFD9298FE59B70ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D58758EFAF30BFAA93331F9A /* Pods.debug.xcconfig */,
+				810D672DEE46B34FD4D516CB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		188A80461C61F04E00D04765 = {
+			isa = PBXGroup;
+			children = (
+				188A80511C61F04E00D04765 /* 微博demo */,
+				188A806B1C61F04E00D04765 /* 微博demoTests */,
+				188A80761C61F04E00D04765 /* 微博demoUITests */,
+				188A80501C61F04E00D04765 /* Products */,
+				183B4E9EEFD9298FE59B70ED /* Pods */,
+				E81D19E1FE93952435AF4E88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		188A80501C61F04E00D04765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188A804F1C61F04E00D04765 /* 微博demo.app */,
+				188A80681C61F04E00D04765 /* 微博demoTests.xctest */,
+				188A80731C61F04E00D04765 /* 微博demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188A80511C61F04E00D04765 /* 微博demo */ = {
+			isa = PBXGroup;
+			children = (
+				188A80551C61F04E00D04765 /* ZYAppDelegate.h */,
+				188A80561C61F04E00D04765 /* ZYAppDelegate.m */,
+				188A80581C61F04E00D04765 /* ZYViewController.h */,
+				188A80591C61F04E00D04765 /* ZYViewController.m */,
+				1840D61C1C61F83000F5EA52 /* ZYWeibo.h */,
+				1840D61D1C61F83000F5EA52 /* ZYWeibo.m */,
+				1840D6221C62ECF900F5EA52 /* ZYWeiboFrame.h */,
+				1840D6231C62ECF900F5EA52 /* ZYWeiboFrame.m */,
+				1840D61F1C61FB1D00F5EA52 /* ZYTableViewCell.h */,
+				1840D6201C61FB1D00F5EA52 /* ZYTableViewCell.m */,
+				188A805B1C61F04E00D04765 /* Main.storyboard */,
+				188A80521C61F04E00D04765 /* Supporting Files */,
+			);
+			path = "微博demo";
+			sourceTree = "<group>";
+		};
+		188A80521C61F04E00D04765 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1840D61A1C61F4BB00F5EA52 /* weibos.plist */,
+				188A80631C61F04E00D04765 /* Info.plist */,
+				188A80531C61F04E00D04765 /* main.m */,
+				188A80601C61F04E00D04765 /* LaunchScreen.storyboard */,
+				188A805E1C61F04E00D04765 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188A806B1C61F04E00D04765 /* 微博demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				188A806C1C61F04E00D04765 /* __demoTests.m */,
+				188A806E1C61F04E00D04765 /* Info.plist */,
+			);
+			path = "微博demoTests";
+			sourceTree = "<group>";
+		};
+		188A80761C61F04E00D04765 /* 微博demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				188A80771C61F04E00D04765 /* __demoUITests.m */,
+				188A80791C61F04E00D04765 /* Info.plist */,
+			);
+			path = "微博demoUITests";
+			sourceTree = "<group>";
+		};
+		E81D19E1FE93952435AF4E88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19382096F75D4581B8683D98 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188A804E1C61F04E00D04765 /* 微博demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188A807C1C61F04E00D04765 /* Build configuration list for PBXNativeTarget "微博demo" */;
+			buildPhases = (
+				4B401E91C8E112191B3594DB /* Check Pods Manifest.lock */,
+				188A804B1C61F04E00D04765 /* Sources */,
+				188A804C1C61F04E00D04765 /* Frameworks */,
+				188A804D1C61F04E00D04765 /* Resources */,
+				C199A8A27FAEFD6A6F401554 /* Embed Pods Frameworks */,
+				626B92CEF5B3A5E043466DFA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微博demo";
+			productName = "微博demo";
+			productReference = 188A804F1C61F04E00D04765 /* 微博demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188A80671C61F04E00D04765 /* 微博demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188A807F1C61F04E00D04765 /* Build configuration list for PBXNativeTarget "微博demoTests" */;
+			buildPhases = (
+				188A80641C61F04E00D04765 /* Sources */,
+				188A80651C61F04E00D04765 /* Frameworks */,
+				188A80661C61F04E00D04765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188A806A1C61F04E00D04765 /* PBXTargetDependency */,
+			);
+			name = "微博demoTests";
+			productName = "微博demoTests";
+			productReference = 188A80681C61F04E00D04765 /* 微博demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		188A80721C61F04E00D04765 /* 微博demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188A80821C61F04E00D04765 /* Build configuration list for PBXNativeTarget "微博demoUITests" */;
+			buildPhases = (
+				188A806F1C61F04E00D04765 /* Sources */,
+				188A80701C61F04E00D04765 /* Frameworks */,
+				188A80711C61F04E00D04765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188A80751C61F04E00D04765 /* PBXTargetDependency */,
+			);
+			name = "微博demoUITests";
+			productName = "微博demoUITests";
+			productReference = 188A80731C61F04E00D04765 /* 微博demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188A80471C61F04E00D04765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZY;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZZY;
+				TargetAttributes = {
+					188A804E1C61F04E00D04765 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7R5X3C7UD7;
+					};
+					188A80671C61F04E00D04765 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7R5X3C7UD7;
+						TestTargetID = 188A804E1C61F04E00D04765;
+					};
+					188A80721C61F04E00D04765 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7R5X3C7UD7;
+						TestTargetID = 188A804E1C61F04E00D04765;
+					};
+				};
+			};
+			buildConfigurationList = 188A804A1C61F04E00D04765 /* Build configuration list for PBXProject "微博demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188A80461C61F04E00D04765;
+			productRefGroup = 188A80501C61F04E00D04765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188A804E1C61F04E00D04765 /* 微博demo */,
+				188A80671C61F04E00D04765 /* 微博demoTests */,
+				188A80721C61F04E00D04765 /* 微博demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188A804D1C61F04E00D04765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188A80621C61F04E00D04765 /* LaunchScreen.storyboard in Resources */,
+				188A805F1C61F04E00D04765 /* Assets.xcassets in Resources */,
+				188A805D1C61F04E00D04765 /* Main.storyboard in Resources */,
+				1840D61B1C61F4BB00F5EA52 /* weibos.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188A80661C61F04E00D04765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188A80711C61F04E00D04765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B401E91C8E112191B3594DB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		626B92CEF5B3A5E043466DFA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C199A8A27FAEFD6A6F401554 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188A804B1C61F04E00D04765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188A805A1C61F04E00D04765 /* ZYViewController.m in Sources */,
+				1840D6241C62ECF900F5EA52 /* ZYWeiboFrame.m in Sources */,
+				1840D61E1C61F83000F5EA52 /* ZYWeibo.m in Sources */,
+				188A80571C61F04E00D04765 /* ZYAppDelegate.m in Sources */,
+				188A80541C61F04E00D04765 /* main.m in Sources */,
+				1840D6211C61FB1D00F5EA52 /* ZYTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188A80641C61F04E00D04765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188A806D1C61F04E00D04765 /* __demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188A806F1C61F04E00D04765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188A80781C61F04E00D04765 /* __demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188A806A1C61F04E00D04765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188A804E1C61F04E00D04765 /* 微博demo */;
+			targetProxy = 188A80691C61F04E00D04765 /* PBXContainerItemProxy */;
+		};
+		188A80751C61F04E00D04765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188A804E1C61F04E00D04765 /* 微博demo */;
+			targetProxy = 188A80741C61F04E00D04765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188A805B1C61F04E00D04765 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188A805C1C61F04E00D04765 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188A80601C61F04E00D04765 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188A80611C61F04E00D04765 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188A807A1C61F04E00D04765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188A807B1C61F04E00D04765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188A807D1C61F04E00D04765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D58758EFAF30BFAA93331F9A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "微博demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZZY.--demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		188A807E1C61F04E00D04765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810D672DEE46B34FD4D516CB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "微博demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZZY.--demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		188A80801C61F04E00D04765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "微博demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZZY.--demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微博demo.app/微博demo";
+			};
+			name = Debug;
+		};
+		188A80811C61F04E00D04765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "微博demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZZY.--demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微博demo.app/微博demo";
+			};
+			name = Release;
+		};
+		188A80831C61F04E00D04765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "微博demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZZY.--demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "微博demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		188A80841C61F04E00D04765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "微博demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZZY.--demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "微博demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188A804A1C61F04E00D04765 /* Build configuration list for PBXProject "微博demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188A807A1C61F04E00D04765 /* Debug */,
+				188A807B1C61F04E00D04765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188A807C1C61F04E00D04765 /* Build configuration list for PBXNativeTarget "微博demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188A807D1C61F04E00D04765 /* Debug */,
+				188A807E1C61F04E00D04765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188A807F1C61F04E00D04765 /* Build configuration list for PBXNativeTarget "微博demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188A80801C61F04E00D04765 /* Debug */,
+				188A80811C61F04E00D04765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188A80821C61F04E00D04765 /* Build configuration list for PBXNativeTarget "微博demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188A80831C61F04E00D04765 /* Debug */,
+				188A80841C61F04E00D04765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188A80471C61F04E00D04765 /* Project object */;
+}
