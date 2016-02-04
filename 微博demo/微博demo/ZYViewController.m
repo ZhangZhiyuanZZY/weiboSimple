@@ -8,7 +8,6 @@
 
 #import "ZYViewController.h"
 #import "ZYWeibo.h"
-#import "ZYWeiboFrame.h"
 #import "ZYTableViewCell.h"
 
 // 自动装箱,把基本类型的数据转换成对象
@@ -21,12 +20,13 @@
 
 #import <Masonry.h>
 
-@interface ZYViewController ()<UITableViewDataSource>
+@interface ZYViewController ()<UITableViewDataSource, UITableViewDelegate>
 //tableView
 @property(nonatomic, strong)UITableView *tableView;
 //微博模型数组
 @property(nonatomic, strong)NSArray *weibos;
 
+@property(assign, nonatomic)CGFloat cellRowHeight;
 @end
 
 @implementation ZYViewController
@@ -42,6 +42,7 @@ NSString *nani = @"nani";
 - (void)setupUI
 {
     self.tableView.dataSource = self;
+    self.tableView.delegate = self;
     //注册cell
     [self.tableView registerClass:[ZYTableViewCell class] forCellReuseIdentifier:nani];
 }
@@ -54,14 +55,25 @@ NSString *nani = @"nani";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    ZYWeiboFrame *weiboFrame = self.weibos[indexPath.row];
+    ZYWeibo *weibo = self.weibos[indexPath.row];
     //自定义cell
     ZYTableViewCell *cell = [ZYTableViewCell setupTableViewCellWith:tableView];
-    cell.weiboFrame = weiboFrame;
+    cell.weibo = weibo;
+    self.cellRowHeight = cell.cellRowHeight;
     return cell;
 }
 
-#pragma mark - 懒加载
+#pragma mark - tableView代理方法
+
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+
+    
+    return 200;
+}
+
+#pragma mark - /************** 懒加载 ***************/
 - (UITableView *)tableView
 {
     if (!_tableView) {
@@ -85,9 +97,7 @@ NSString *nani = @"nani";
         NSMutableArray *arrayM = [NSMutableArray array];
         for (NSDictionary *dict in arrayWeibos) {
             ZYWeibo *weibo = [[ZYWeibo alloc]initWithDict:dict];
-            ZYWeiboFrame *weiboFrame = [[ZYWeiboFrame alloc]init];
-            weiboFrame.weibo = weibo;
-            [arrayM addObject:weiboFrame];
+            [arrayM addObject:weibo];
         }
         _weibos = arrayM;
     }

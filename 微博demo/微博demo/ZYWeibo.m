@@ -33,9 +33,4 @@
     _picture = image;
 }
 
-- (void)setVip:(int)vip
-{
-    NSString *imgStr = (NSString *)vip;
-    
-}
 @end

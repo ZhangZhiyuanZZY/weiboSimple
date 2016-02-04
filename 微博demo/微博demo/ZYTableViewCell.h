@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-@class ZYWeiboFrame;
+@class ZYWeibo;
 @interface ZYTableViewCell : UITableViewCell
-@property(nonatomic, strong)ZYWeiboFrame *weiboFrame;
-
+@property(nonatomic, strong)ZYWeibo *weibo;
+@property(assign, nonatomic)CGFloat cellRowHeight;
 + (instancetype)setupTableViewCellWith:(UITableView *)tableView;
 @end

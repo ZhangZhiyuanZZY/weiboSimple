@@ -11,7 +11,6 @@
 		1840D61B1C61F4BB00F5EA52 /* weibos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1840D61A1C61F4BB00F5EA52 /* weibos.plist */; };
 		1840D61E1C61F83000F5EA52 /* ZYWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840D61D1C61F83000F5EA52 /* ZYWeibo.m */; };
 		1840D6211C61FB1D00F5EA52 /* ZYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840D6201C61FB1D00F5EA52 /* ZYTableViewCell.m */; };
-		1840D6241C62ECF900F5EA52 /* ZYWeiboFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840D6231C62ECF900F5EA52 /* ZYWeiboFrame.m */; };
 		188A80541C61F04E00D04765 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A80531C61F04E00D04765 /* main.m */; };
 		188A80571C61F04E00D04765 /* ZYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A80561C61F04E00D04765 /* ZYAppDelegate.m */; };
 		188A805A1C61F04E00D04765 /* ZYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A80591C61F04E00D04765 /* ZYViewController.m */; };
@@ -45,8 +44,6 @@
 		1840D61D1C61F83000F5EA52 /* ZYWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWeibo.m; sourceTree = "<group>"; };
 		1840D61F1C61FB1D00F5EA52 /* ZYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTableViewCell.h; sourceTree = "<group>"; };
 		1840D6201C61FB1D00F5EA52 /* ZYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTableViewCell.m; sourceTree = "<group>"; };
-		1840D6221C62ECF900F5EA52 /* ZYWeiboFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWeiboFrame.h; sourceTree = "<group>"; };
-		1840D6231C62ECF900F5EA52 /* ZYWeiboFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWeiboFrame.m; sourceTree = "<group>"; };
 		188A804F1C61F04E00D04765 /* 微博demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		188A80531C61F04E00D04765 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		188A80551C61F04E00D04765 /* ZYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYAppDelegate.h; sourceTree = "<group>"; };
@@ -134,8 +131,6 @@
 				188A80591C61F04E00D04765 /* ZYViewController.m */,
 				1840D61C1C61F83000F5EA52 /* ZYWeibo.h */,
 				1840D61D1C61F83000F5EA52 /* ZYWeibo.m */,
-				1840D6221C62ECF900F5EA52 /* ZYWeiboFrame.h */,
-				1840D6231C62ECF900F5EA52 /* ZYWeiboFrame.m */,
 				1840D61F1C61FB1D00F5EA52 /* ZYTableViewCell.h */,
 				1840D6201C61FB1D00F5EA52 /* ZYTableViewCell.m */,
 				188A805B1C61F04E00D04765 /* Main.storyboard */,
@@ -369,7 +364,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				188A805A1C61F04E00D04765 /* ZYViewController.m in Sources */,
-				1840D6241C62ECF900F5EA52 /* ZYWeiboFrame.m in Sources */,
 				1840D61E1C61F83000F5EA52 /* ZYWeibo.m in Sources */,
 				188A80571C61F04E00D04765 /* ZYAppDelegate.m in Sources */,
 				188A80541C61F04E00D04765 /* main.m in Sources */,
